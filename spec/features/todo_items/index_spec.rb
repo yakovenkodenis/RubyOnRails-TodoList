@@ -28,7 +28,7 @@ describe "Viewing todo items" do
 
 	end
 
-	it "displays item content when a todo lust has items" do
+	it "displays item content when a todo list has items" do
 		todo_list.todo_items.create(content: "Milk")
 		todo_list.todo_items.create(content: "Eggs")
 
